@@ -1,0 +1,70 @@
+/* サイドバーとチャット画面を横並び */
+.wrapper {
+  display: flex;
+}
+.side_bar {
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+.side_header {
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.side_main {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+a {
+  text-decoration: none;
+}
+.user-name a {
+  color: #fafafa;
+  font-size: 16px;
+}
+.chat-create {
+  font-size: 10px;
+}
+.chat-create a {
+  /* font-size: 10px; */
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+}
+
+
+
+
+.chat {
+  background-color: #fff;
+  height: 100vh;
+  width: calc(100vw - 300px);
+}
+.chat_header {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.chat_main {
+  background-color: #fafafa;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+}
+.room {
+  padding: 20px 0 40px;
+}
+.room a {
+  color: white;
+}
+
+.chat_footer {
+  background-color: #ddd;
+  height: 90px;
+  padding: 20px 40px;
+}
